@@ -1,0 +1,24 @@
+{
+  "name": "spoc-server",
+  "version": "1.0.0",
+  "description": "verpackungsrechner",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cmh1506"
+  },
+  "keywords": [
+    "verpackungsrechner",
+    "node",
+    "angular"
+  ],
+  "author": "claus heinrich",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
