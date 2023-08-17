@@ -1,0 +1,716 @@
+[
+  {
+    "a_name": "LDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "HDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "LLDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "PET",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "PP",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "GPPS",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "HIPS",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "PVC",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "PA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "EVOH",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "PVDC",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-LLDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-LDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-HDPE",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-PET",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-PP",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "bio PE iluc",
+    "bioco2verbrennung": "3.14",
+    "biofuelco2": "2.77777777777778",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "bio PE",
+    "bioco2verbrennung": "3.14",
+    "biofuelco2": "2.77777777777778",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "R-bioPE",
+    "bioco2verbrennung": "3.14",
+    "biofuelco2": "2.77777777777778",
+    "bioco2prod": "",
+    "CO2recycling": "0,4"
+  },
+  {
+    "a_name": "bio PET",
+    "bioco2verbrennung": "0.46",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PLA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "bio PA",
+    "bioco2verbrennung": "2.34",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "ABS",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "SAN",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PC",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PUR",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "EPS",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PU Foam 18",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PU foam 35",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PU foam 40",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PU foam 45",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "rigid PU foam",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "PSA Acrylat",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "HMPSA_Rosin",
+    "bioco2verbrennung": "1.32",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "HMPSA_C5_Resin",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "2k_lh_Klebstoff",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "2k_Lf_Klebstoff",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "HMA_EVA_Rosin",
+    "bioco2verbrennung": "0.88",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "HMA_C5",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Offsetfarbe",
+    "bioco2verbrennung": "1.6",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Tiefdruckfarbe",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Flexofarbe_wässrig",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Flexofarbe wässrig",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Flexofarbe",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "aliph_PU",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "EVA_30",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "long pPolyol",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "short Polyol",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "arom Polyol",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "GAA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "MA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "EA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "BA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "EHA",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "EVA(30-70)",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Brettschichtholz",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Dreischichtholz",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Schnittholz",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Furnierschichtholz",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Furniersperrholz",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Spanplatte",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Spanplatte Melamin beschichtet",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "OSB",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "MDF",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "HDF",
+    "bioco2verbrennung": "1.59509202453988",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Papier",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Papierhf",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Papier hf coated",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "holzhaltig",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "holzhaltig coated",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Altpapier",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Altpapier coated",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Kraftliner",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Testliner",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Schrenz",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "GZ Karton",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "GC Karton",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "GD Karton",
+    "bioco2verbrennung": "0",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": ""
+  },
+  {
+    "a_name": "N2 gas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "N2 flüssig",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "O2 flüssig",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Neuglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,36"
+  },
+  {
+    "a_name": "R Behälterglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "R Weißglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "R Buntglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0"
+  },
+  {
+    "a_name": "Weißglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,36"
+  },
+  {
+    "a_name": "Buntglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,36"
+  },
+  {
+    "a_name": "Flaconglas",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,36"
+  },
+  {
+    "a_name": "Alu prod. EU",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0",
+    "bioco2prod": "",
+    "CO2recycling": "0,5"
+  },
+  {
+    "a_name": "Alu used EU",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "0,5"
+  },
+  {
+    "a_name": "Elektrostahl",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "1,4"
+  },
+  {
+    "a_name": "Hochofenstahl",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "1,4"
+  },
+  {
+    "a_name": "R-Weißblech",
+    "bioco2verbrennung": "",
+    "biofuelco2": "",
+    "bioco2prod": "",
+    "CO2recycling": "1,4"
+  },
+  {
+    "a_name": "Zellstoff",
+    "bioco2verbrennung": "",
+    "biofuelco2": "1.3",
+    "bioco2prod": "1.37",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Holzstoff",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0.16",
+    "bioco2prod": "0.9",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Altpapier",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0.12",
+    "bioco2prod": "0.3",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "DIPP",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0.2",
+    "bioco2prod": "0.5",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Füllstoff",
+    "bioco2verbrennung": "",
+    "biofuelco2": "1",
+    "bioco2prod": "1",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "CaCO3",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Kaolin",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  },
+  {
+    "a_name": "Binder",
+    "bioco2verbrennung": "",
+    "biofuelco2": "0",
+    "bioco2prod": "0",
+    "CO2recycling": "0,1"
+  }
+]

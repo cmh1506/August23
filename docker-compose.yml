@@ -1,10 +1,12 @@
 version: '3.7'
 
 services:
-
+  
   node:
     container_name: spoc
     image: cmh1506/spoc
+    environment:
+      - ENV="docker"
     build:
       context: .
       dockerfile: node.dockerfile      
@@ -15,14 +17,20 @@ services:
     volumes:
       - ./logs:/var/www/logs
     depends_on: 
-      - mongodb
-      
+      - mongodb  
   mongodb:
     container_name: mongodb
-    image: mongo
+    build:
+      context: .
+      dockerfile: mongo.dockerfile
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
     networks:
       - spoc-network
-
+volumes:
+  mongodb:
 networks:
   spoc-network:
     driver: bridge
