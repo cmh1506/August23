@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
   }
   title: string = "huhu"
   ngOnInit(): void {
-    this.http.get<string>('http://localhost:3000/api/material').subscribe((res) => {
+    this.http.get<string>('http://localhost/api/material').subscribe((res) => {
       console.log(res)
       this.title = JSON.parse(JSON.stringify(res))[0]["recyclingverfahren"]
     })
