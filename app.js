@@ -6,7 +6,7 @@ const debug = require('debug')('app')
 const app = express()
 
 
-const db = mongoose.connect('mongodb://spocco2-server:jXgQsiud9ycxa0IxE87REIibpP84s56hCo1adPXxW7zbjabt2q3uHETeCsdNO2KkltlXiMHWWjAGACDbkCpsPg==@spocco2-server.mongo.cosmos.azure.com:10255/spocco2-database?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@spocco2-server@')
+const db = mongoose.connect('mongodb://msdocs-expressjs-mongodb-che-server:DHIycKP6ytd3I0m8dbeykx4RqZHRsOUcJ2xoPYzxVsvzEYQnyzk6sJQem2mdptimu6d6wEC3ba8RACDbqiyAAg==@msdocs-expressjs-mongodb-che-server.mongo.cosmos.azure.com:10255/msdocs-expressjs-mongodb-che-database?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@msdocs-expressjs-mongodb-che-server@')
 //const db = mongoose.connect('mongodb://mongodb/spoc')
 /* if (process.env.ENV === 'Test') {
   console.log("This is a test.")
