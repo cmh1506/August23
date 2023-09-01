@@ -1,14 +1,12 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Observable } from 'rxjs';
-
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-material',
+  templateUrl: './material.component.html',
+  styleUrls: ['./material.component.css']
 })
-export class AppComponent implements OnInit{
+export class MaterialComponent implements OnInit {
   constructor(private http: HttpClient){
   }
   title: string = "huhu"
@@ -17,5 +15,4 @@ export class AppComponent implements OnInit{
       this.title = JSON.parse(JSON.stringify(res))[0]["recyclingverfahren"]
     })
   }
-  
 }

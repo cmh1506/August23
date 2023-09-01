@@ -49,7 +49,6 @@ describe('Material Crud Test', () => {
       .expect(200)
       .end((err, results) => {
         results.body.should.have.property('_id')
-        //console.log(results)
         done()
       })
   })

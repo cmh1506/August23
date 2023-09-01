@@ -1,9 +1,12 @@
 const express = require('express')
 const materialController = require('../controllers/materialController')
 
+
 function routes(Material) {
   const materialRouter = express.Router()
+ 
   const controller = materialController(Material)
+  
   materialRouter.route('/material')
     .post(controller.post)
     .get(controller.get)

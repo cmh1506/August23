@@ -1,9 +1,24 @@
 version: '3.7'
 
 services:
+  nginx:
+      container_name: nginx-angular
+      image: cmh1506/nginx-angular
+      build:
+        context: .
+        dockerfile: nginx.dockerfile
+      volumes:
+        - ./frontend/dist/frontend:/usr/share/nginx/html
+      ports:
+        - "80:80"
+        - "443:443"
+      depends_on: 
+        - node
+      networks:
+        - spoc-network
   
   node:
-    container_name: spoc
+    container_name: spoc-server
     image: cmh1506/spoc
     environment:
       - ENV="docker"
