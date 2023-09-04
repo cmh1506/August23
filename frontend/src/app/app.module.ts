@@ -12,13 +12,31 @@ import { FormsModule, ReactiveFormsModule  } from "@angular/forms";
 import { SignUpComponent } from './sign-up/sign-up.component';
 import {MatInputModule} from '@angular/material/input';
 import { MaterialComponent } from './material/material.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MaterialListComponent } from './material-list/material-list.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MaterialFormComponent } from './material-form/material-form.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SignUpComponent,
-    MaterialComponent
+    SignUpComponent,    
+    NavigationComponent,
+    MaterialComponent,
+    MaterialListComponent,
+    MaterialFormComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +47,17 @@ import { MaterialComponent } from './material/material.component';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatSelectModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

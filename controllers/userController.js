@@ -1,3 +1,5 @@
+const connectEnsureLogin = require('connect-ensure-login')
+
 function userController(User){
   function post(req, res) {
     User.register(new User({ email: req.body.email, username: req.body.username }), req.body.password, function (err, user) {
@@ -17,7 +19,20 @@ function userController(User){
   });
     
   }
-  return { post }
+  function get(req, res){
+    if (req.user) {
+        const query = req.query; 
+        console.log("connectEnsureLogin.ensureLoggedIn(): ", connectEnsureLogin.ensureLoggedIn()) 
+        console.log("user: ", req.user)
+        User.find(query).then((users) => {
+          res.status(201)
+          return res.json(users)
+        })
+      } else {
+        res.send('login is required')
+      }
+  }
+  return { get, post }
 }
 
 module.exports = userController;

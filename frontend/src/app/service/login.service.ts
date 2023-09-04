@@ -18,7 +18,7 @@ export class LoginService {
 
   signIn(user: User): void {
     this.http.post<User>('http://localhost:3000/api/signIn', user).subscribe((res) => {
-      this.router.navigate(['/material']);
+      this.router.navigate(['/navigation']);
     })
   }
 

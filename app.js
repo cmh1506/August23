@@ -24,6 +24,7 @@ const User = require('./models/user')
 
 
 const materialRouter = require('./routes/materialRouter')(Material)
+const userRouter = require('./routes/userRouter')(User)
 const authRouter = require('./routes/authRouter')(User)
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -54,7 +55,14 @@ app.use('/api', materialRouter)
 
 app.use('/api', authRouter)
 
-app.post('/api/signIn', (req, res) => {
+app.use('/api', userRouter)
+
+app.post('/api/signIn', passport.authenticate('local', { failureRedirect: '/' }),  function(req, res) {
+	console.log(req.user)
+	res.json({ success: true, message: "Authentication successful"})
+});
+
+/* app.post('/api/signIn', (req, res) => {
   if (!req.body.username) {
     res.json({ success: false, message: "Username was not given" })
   }
@@ -62,7 +70,7 @@ app.post('/api/signIn', (req, res) => {
     res.json({ success: false, message: "Password was not given" })
   }
   else {
-    passport.authenticate("local", function (err, user, info) {
+    passport.authenticate("local", (err, user, info) => {
       if (err) {
         res.json({ success: false, message: err });
       }
@@ -77,7 +85,7 @@ app.post('/api/signIn', (req, res) => {
       }
     })(req, res);
   }
-})
+}) */
 
 app.get('/logout', function(req, res) {
   req.logout();

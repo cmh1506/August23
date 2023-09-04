@@ -8,7 +8,8 @@ const UserSchema = new Schema(
   {
     name: {type: String},
     email: {type: String, required:true, unique:true},
-    username : {type: String, unique: true, required:true}
+    username : {type: String, unique: true, required:true},
+    username : {type: String, required:true}
   }
 )
 UserSchema.plugin(passportLocalMongoose);
